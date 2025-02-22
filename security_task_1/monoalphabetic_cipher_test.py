@@ -28,3 +28,6 @@ class TestMonoalphabeticCipher(unittest.TestCase):
 
         # Validate key format against expected pattern
         assert re.match(expected_pattern, key), "Key does not match expected pattern."
+
+if __name__ == '__main__':
+    unittest.main()
